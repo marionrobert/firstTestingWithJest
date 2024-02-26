@@ -6,7 +6,11 @@
 //   expect(additionCalculator(4, 6)).toBe(10);
 // });
 
-const additionCalculator = require("./additionCalculator");
+//without babel
+// const additionCalculator = require("./additionCalculator");
+
+// with babel
+import additionCalculator from "./additionCalculator";
 
 describe("additionCalculator's test cases", () => {
   test("addition of 4 and 6 to equal 10", () => {

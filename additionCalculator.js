@@ -9,4 +9,8 @@ function additionCalculator(...numbers) {
   return numbers.reduce((sum, item) => sum + item, 0);
 }
 
-module.exports = additionCalculator;
+// without babel
+// module.exports = additionCalculator;
+
+// with babel
+export default additionCalculator;
